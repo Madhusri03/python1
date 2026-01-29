@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    N = int(input())
+my_list = []
+N = int(input())
+for _ in range(N):
+   command_parts = input().split()
+command  = command_parts[0]
+if command == "insert": my_list.insert(int(command_parts[1]),
+int(command_parts[2]))
+elif command == "print":
+…    my_list.reverse()
+ 
